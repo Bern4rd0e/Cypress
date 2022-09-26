@@ -1,0 +1,56 @@
+Comandos para começar um novo projeto:
+
+        1- npm init --yes
+
+        2- npm install -D cypress 
+        (se quiser uma versão expecífica, coloque no cypress, ex.: cypress@6.7.0
+        ficando assim, npm install -D cypress @6.7.0)
+
+        3- npx cypresse open
+
+        OBS.: É interessante/importante ter o nodeJS instalado na máquina;
+
+------------------------------------------------------------------------------------------------
+
+Para quê serve cada pasta:
+
+        * Fixures: dados e arquivos de mocks.
+                Mocks -->
+
+        * Integration: nossos arquivos de testes.
+
+        * Integration: Nossos arquivos de testes
+                (ou seja, onde iremos testar.
+                OBS.:sua extensão é: .spec.js)
+
+        * Plugins: as configurações de plugin, 
+        podendo utilizar durante os teste.
+
+        * Support: arquivos auxiliares e de suporte aos testes.
+
+
+                Ainda há pastas geradas após algumas execuções
+                    screenshots - prints / screenshots durante o teste
+                    videos - videos gerados durante o teste
+
+------------------------------------------------------------------------------------------------
+
+                                Teste com site responsivo
+
+                1- Configs por linha comando:
+                -> npx cypress open --config viewportWidth=375, viewportHeidth=812
+                
+                Se trocar o open pelo run, não abrirá o cypress, mas rodará na máquina, além ficar um vídeo do teste que você poderá utilizar;
+                        * Se utilizar npx run cypress:run:mobile, aparecerá uma atalho do npx cypress run --config viewportWidth=375, viewportHeidth=812
+
+                2- cy.viewport:
+                ->
+
+                3- arquivos de config:
+                ->
+
+
+------------------------------------------------------------------------------------------------
+
+Apredizado pelo Agilizei. Acesse o mesmo em: https://youtu.be/yBZOHC7WwHU
+(pov:algumas informações a mais podem ser acrescentadas)
